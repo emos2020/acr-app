@@ -17,7 +17,8 @@ use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
  *      normalizationContext={"groups"={"member:read"}},
  *  	denormalizationContext={"groups"={"member:write"}},
  *	attributes={
- * 		"pagination_items_per_page"=100
+ * 		"pagination_items_per_page"=50,
+ *		"order"={"id": "DESC"}
  *   }
  * )
  * @ApiFilter(SearchFilter::class, properties={"id": "exact", "wording": "partial"})
