@@ -17,7 +17,7 @@ use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
  *      normalizationContext={"groups"={"member:read"}},
  *  	denormalizationContext={"groups"={"member:write"}},
  *	attributes={
- * 		"pagination_items_per_page"=50,
+ * 		"pagination_items_per_page"=200,
  *		"order"={"id": "DESC"}
  *   }
  * )
