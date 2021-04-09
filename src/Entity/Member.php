@@ -21,7 +21,7 @@ use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
  *		"order"={"id": "DESC"}
  *   }
  * )
- * @ApiFilter(SearchFilter::class, properties={"id": "exact", "quality": "exact","status": "exact", "streetsZone": "exact"})
+ * @ApiFilter(SearchFilter::class, properties={"id": "exact", "quality": "exact","status": "exact", "streetsZone": "exact","commune": "exact","area": "exact","street": "exact"})
  * @ApiFilter(PropertyFilter::class)
  * @ORM\Entity(repositoryClass=MemberRepository::class)
  */
